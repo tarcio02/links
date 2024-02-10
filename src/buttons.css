@@ -1,0 +1,31 @@
+@import './src/variaveis.css';
+
+.btn-link {
+    display: grid;
+    gap: 24px;
+    place-items: center;
+    margin-top: 40px;
+}
+
+.link{
+    display: grid;
+    place-items: center;
+    height: 48px;
+    width: 52vw;
+    background-color: var(--theme);
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+}
+
+.link:hover{
+    width: 54vw;
+    height: 54px;
+    opacity: .6;
+}
+
+.link a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 24px;
+}
