@@ -1,6 +1,7 @@
 @import './src/variaveis.css';
 @import './src/head.css';
 @import './src/buttons.css';
+@import './src/footer.css';
 
 * {
     margin: 0;
@@ -13,20 +14,7 @@ body{
 }
 
 .container {
-    width: 70vw;
+    width: 80vw;
     margin: 0 auto;
 }
 
-@media (min-width:480px) and (max-width:768px){
-    .head{
-        margin-top: 50px;
-    }
-    .head img{
-        width: 128px
-    }
-
-    .btn-link{
-        gap: 16px;
-    }
-
-}

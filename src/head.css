@@ -6,8 +6,20 @@
     color:  var(--text);
     margin-top: 80px;
 }
-.head img{
+.usuario{
+    height: 256px;
     width: 256px;
     border-radius: 50%;
     border: solid 8px var(--theme);
+}
+
+@media (max-width:768px){
+    .head{
+        margin-top: 80px;
+    }
+    .usuario{
+        height: 160px;
+        width: 160px;
+        border: solid 4px var(--theme);
+    }
 }

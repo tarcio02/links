@@ -11,7 +11,7 @@
     display: grid;
     place-items: center;
     height: 48px;
-    width: 52vw;
+    width: 80vw;
     background-color: var(--theme);
     border-radius: 16px;
     cursor: pointer;
@@ -19,7 +19,7 @@
 }
 
 .link:hover{
-    width: 54vw;
+    width: 85vw;
     height: 54px;
     opacity: .6;
 }
@@ -28,4 +28,6 @@
     text-decoration: none;
     color: var(--text);
     font-size: 24px;
+    display:flex;
+    gap: 8px;
 }
